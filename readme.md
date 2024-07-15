@@ -9,11 +9,11 @@
     <!--<img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">-->
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Heros and Cards</h3>
+  <h3 align="center">Hero and Card</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is only a practice
 </div>
 
 <br />
@@ -117,4 +117,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Background website | A background design for landing page and pages.| Freepik.com |
