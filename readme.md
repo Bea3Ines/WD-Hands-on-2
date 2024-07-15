@@ -42,9 +42,9 @@
         </li>
       </ol>
     </li>
-    <li>
+    <!--<li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
+    </li>-->
     <li>
       <a href="#resources">Resources</a>
     </li>
@@ -58,15 +58,21 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
+This project is about designing hero and card. For those pages, the topic is about digital illustration, 
+the purpose of this is to feature the infos of digital illustration.
 
-Guiding Question:
+
+<!--Guiding Question:
 - What is the project
 - Whats the purpose
 - What are key components
-- What technology used and how it is used
+- What technology used and how it is used-->
 
 ### Key Components
 <!-- TODO: List of Key Components -->
+- Hero
+- Card
+- 
 <!-- The following are just sample -->
 <!--- MultiPage Website/Single Page Website
 - Parallax transition
