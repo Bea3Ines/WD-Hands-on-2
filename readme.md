@@ -72,7 +72,7 @@ the purpose of this is to feature the infos of digital illustration.
 <!-- TODO: List of Key Components -->
 - Hero
 - Card
-- 
+-  5 Different designed pages
 <!-- The following are just sample -->
 <!--- MultiPage Website/Single Page Website
 - Parallax transition
@@ -124,3 +124,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Freepik | A background design for landing page and pages.| Freepik.com |
+|Fontsawesome |	Designed & simple icons, of any objects shapes or any icons |	fontsawesome.com |
+|Bootstrap |	It's a web page for css templates, guides and examples that will practice the structure of web design |	https://getbootstrap.com |
+|Google Fonts |	A google service which has kinds of icons and fonts to choose |	fonts.google.com |
+|W3Schools |	It's a web page tutorial for web designers which features css templates, guides and examples |	https://www.w3schools.com |
