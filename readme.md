@@ -57,7 +57,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 This project is about designing hero and card. For those pages, the topic is about digital illustration, 
 the purpose of this is to feature the infos of digital illustration.
 
