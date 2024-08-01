@@ -1,34 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: DM Serif Display;
+    font-family: Righteous;
     font-weight: 400;
     /*outline: auto;*/
 }
 
-.container{
-    background-image: linear-gradient(rgba(222, 202, 91, 0.292), rgba(150, 100, 204, 0.312)), url('../img/18776856_6032975.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    width: 100%;
-    color: rgb(250, 235, 215);
+span{
+    color: white;
 }
+
+.container {
+    position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url('..//img/night\ skies.jpg')
+    /*width: 100dvw;
+    height: 100dvh;
+    background: url('..//img/night\ skies.jpg');
+    object-fit: cover;
+    position: relative;*/
+  }
 .navbar {
-    background-color: rgba(137, 43, 226, 0.368);
     padding: 10px 10px;
     display: flex;
 }
 .navbar h1{
     margin-left: 5%;
     font-size: xx-large;
+    color: lightskyblue;
 }
 .navbar ul{
-    padding-left: 18%;
+    padding-left: 12%;
 }
 .navbar li{
     display: flex;
@@ -50,10 +58,12 @@
 .start h1{
     text-align: center;
     font-size: 80px;
+    color: lightskyblue;
 }
 p{
     line-height: 5;
     font-size: 25px;
+    color: white;
 }
 nav li{
     padding: 0 55px;
@@ -68,11 +78,10 @@ nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding: 5px 50px;
-    border-radius: 40px 30px;
-    background-color: rgb(98, 60, 159);
+    padding: 5px 30px;
+    border-radius: 20px 20px;
 }
 a:hover{
     transition: ease-in, 0.5s;
-    background-color:goldenrod;
+    background-color: lightskyblue;
 }

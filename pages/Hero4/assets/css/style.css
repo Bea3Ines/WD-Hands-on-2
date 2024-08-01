@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: DM Serif Display;
+    font-family: Palanquin Dark;
     font-weight: 400;
     /*outline: auto;*/
 }
 
 .container{
-    background-image: linear-gradient(rgba(222, 202, 91, 0.292), rgba(150, 100, 204, 0.312)), url('../img/18776856_6032975.jpg');
+    background-image: url(../img/neon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,19 +19,21 @@
     color: rgb(250, 235, 215);
 }
 .navbar {
-    background-color: rgba(137, 43, 226, 0.368);
+    background-color: rgba(255, 166, 0, 0.333);
     padding: 10px 10px;
     display: flex;
+    color: black;
+    justify-content: center;
 }
-.navbar h1{
-    margin-left: 5%;
+span{ color: orange;}
+h2{
     font-size: xx-large;
+    text-transform: uppercase;
 }
 .navbar ul{
-    padding-left: 18%;
+    align-items: center;
 }
 .navbar li{
-    display: flex;
     padding: 0 35px;
 
 }
@@ -42,37 +44,33 @@
 
 .start{
     margin-top: 10%;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
     display: flex;
+    margin-top: 18%;
 }
 .start h1{
     text-align: center;
     font-size: 80px;
-}
-p{
-    line-height: 5;
-    font-size: 25px;
+    color: orange;
 }
 nav li{
-    padding: 0 55px;
+    padding: 0 50px;
 }
 nav ul {
     line-height: 2;
     list-style: none;
-    justify-content: space-around;
     display: flex;
 }
 nav a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding: 5px 50px;
-    border-radius: 40px 30px;
-    background-color: rgb(98, 60, 159);
+    padding: 5px 20px;
+    border-radius: 20px 20px;
 }
 a:hover{
     transition: ease-in, 0.5s;
-    background-color:goldenrod;
+    background-color: orange;
 }

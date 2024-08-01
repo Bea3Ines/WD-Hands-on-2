@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: DM Serif Display;
+    font-family: Basley;
     font-weight: 400;
     /*outline: auto;*/
 }
 
 .container{
-    background-image: linear-gradient(rgba(222, 202, 91, 0.292), rgba(150, 100, 204, 0.312)), url('../img/18776856_6032975.jpg');
+    background: url('../img/Frog\ and\ Toad.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,9 +17,23 @@
     position: relative;
     width: 100%;
     color: rgb(250, 235, 215);
+    /*position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  width: 100dvw;
+  height: 100dvh;
+  overflow: hidden;
+  background: url('../img/Frog\ and\ Toad.jpg');
+  background-repeat: no-repeat;
+  filter: sepia(0.4) hue-rotate(-10deg) opacity(0.6);
+    width: 100dvw;
+    height: 100dvh;
+    background: url('..//img/night\ skies.jpg');
+    object-fit: cover;
+    position: relative;*/
 }
 .navbar {
-    background-color: rgba(137, 43, 226, 0.368);
+    background-color: rgba(0, 0, 128, 0.267);
     padding: 10px 10px;
     display: flex;
 }
@@ -40,21 +54,6 @@
     padding: 3px 20px;
 }
 
-.start{
-    margin-top: 10%;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-}
-.start h1{
-    text-align: center;
-    font-size: 80px;
-}
-p{
-    line-height: 5;
-    font-size: 25px;
-}
 nav li{
     padding: 0 55px;
 }
@@ -69,10 +68,40 @@ nav a{
     color: white;
     font-size: 20px;
     padding: 5px 50px;
-    border-radius: 40px 30px;
-    background-color: rgb(98, 60, 159);
+    border-radius: 40px 40px;
+    background-color: lightblue;
 }
 a:hover{
     transition: ease-in, 0.5s;
     background-color:goldenrod;
+}
+
+.card {
+    background-color: #ffffff71;
+    border-radius: 40px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 50px;
+    text-align: start;
+    transition: transform 0.3s;
+    color: #333;
+    margin-top: 70px;
+    margin-left: 5%;
+}
+
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+
+.card a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Righteous;
 }

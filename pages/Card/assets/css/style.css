@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Bungee&family=Limelight&family=Palanquin+Dark:wght@400;500;600;700&family=Pattaya&family=Righteous&family=Silkscreen&display=swap');@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Silkscreen;
+    font-weight: 400;
+    /*outline: auto;*/
+}
+
+.container {
+    position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url('../img/aesthetic-pixel-art-garden-at-night-0ax4fopcqzot21lj.jpg')
+    /*width: 100dvw;
+    height: 100dvh;
+    background: url('..//img/night\ skies.jpg');
+    object-fit: cover;
+    position: relative;*/
+  }
+.navbar {
+    background-color: rgba(137, 43, 226, 0.368);
+    padding: 10px 10px;
+    display: flex;
+}
+
+.navbar ul{
+    padding-left: 15%;
+}
+.navbar li{
+    display: flex;
+    padding: 0 35px;
+
+}
+.navbar a{
+    font-size: 15px;
+    padding: 3px 20px;
+}
+
+.start{
+    margin-top: 10%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+}
+.start h1{
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    line-height: 5;
+    font-size: 25px;
+}
+nav li{
+    padding: 0 55px;
+}
+nav ul {
+    line-height: 2;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 50px;
+    border-radius: 40px 30px;
+}
+a:hover{
+    transition: ease-in, 0.5s;
+    background-color:rgba(155, 10, 61, 0.473);
+}
+
+.container2{
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.card {
+    background-color: #ffffff39;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: rgba(155, 10, 61, 0.395);
+    transition: 0.5s;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.icon{
+    color: white;
+    padding: 20px;
+}
+.btn active{
+    cursor: pointer;
+}
